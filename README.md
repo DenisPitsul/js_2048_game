@@ -51,7 +51,7 @@ Hints:
 - Use `keydown` event and `event.key` property to handle arrow buttons presses
     ```js
     document.addEventListener('keydown', event => console.log(event.key));
-    ``` 
+    ```
 - Adding animation to the game is optional. It is a bit tricky, but you can try it if you want. Probably, you will need to extend the Game class with additional methods and create a separate board storage with Tile entities to operate their corresponding DOM elements' positions.
 
 You can change the HTML/CSS layout if you need it.
